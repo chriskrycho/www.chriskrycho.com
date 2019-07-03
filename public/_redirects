@@ -2,10 +2,10 @@
 
 # Redirect default Netlify subdomain to primary domain
 http://chriskrycho.netlify.com/* https://www.chriskrycho.com/:splat 301!
+# Require TLS.
 http://www.chriskrycho.com/* https://www.chriskrycho.com/:splat 301!
-
-http://www.chriskrycho.com https://v4.chriskrycho.com 302
-https://www.chriskrycho.com https://v4.chriskrycho.com 302
+# Point at the current version of the site.
+https://www.chriskrycho.com https://v4.chriskrycho.com 302!
 
 # These are configured as `307` so that they can be updated to point to future
 # versions of the site.
