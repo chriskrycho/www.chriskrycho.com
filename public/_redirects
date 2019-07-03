@@ -1,5 +1,8 @@
 # TOP-LEVEL REDIRECTS ----------------------------------------------------------
 
+# Redirect default Netlify subdomain to primary domain
+http://chriskrycho.netlify.com/* http://www.chriskrycho.com/:splat 301!
+
 # These are configured as `307` so that they can be updated to point to future
 # versions of the site.
 / https://v3.chriskrycho.com 307
