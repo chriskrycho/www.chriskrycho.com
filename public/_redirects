@@ -4,10 +4,13 @@
 http://chriskrycho.netlify.com/* https://www.chriskrycho.com/:splat 301!
 http://www.chriskrycho.com/* https://www.chriskrycho.com/:splat 301!
 
+http://www.chriskrycho.com https://v4.chriskrycho.com 303
+https://www.chriskrycho.com https://v4.chriskrycho.com 303
+
 # These are configured as `307` so that they can be updated to point to future
 # versions of the site.
-/feed.xml https://v4.chriskrycho.com/feed.xml 307
-/404.html https://v4.chriskrycho.com/404.html 307
+/feed.xml https://v4.chriskrycho.com/feed.xml 303
+/404.html https://v4.chriskrycho.com/404.html 303
 
 # v4 REDIRECTS -----------------------------------------------------------------
 
