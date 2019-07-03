@@ -1,7 +1,8 @@
 # TOP-LEVEL REDIRECTS ----------------------------------------------------------
 
 # Redirect default Netlify subdomain to primary domain
-http://chriskrycho.netlify.com/* http://www.chriskrycho.com/:splat 301!
+http://chriskrycho.netlify.com/* https://www.chriskrycho.com/:splat 301!
+http://www.chriskrycho.com/* https://www.chriskrycho.com/:splat 301!
 
 # These are configured as `307` so that they can be updated to point to future
 # versions of the site.
@@ -241,3 +242,13 @@ http://chriskrycho.netlify.com/* http://www.chriskrycho.com/:splat 301!
 /workflow/index.html https://v4.chriskrycho.com/workflow/index.html 301
 /writing/index.html https://v4.chriskrycho.com/writing/index.html 301
 /zettelkasten/index.html https://v4.chriskrycho.com/zettelkasten/index.html 301
+
+# v2 REDIRECTS -----------------------------------------------------------------
+
+http://2011.chriskrycho.com/* https://v2.chriskrycho.com/:splat 301
+https://2011.chriskrycho.com/* https://v2.chriskrycho.com/:splat 301
+
+# v3 REDIRECTS -----------------------------------------------------------------
+
+http://2012-2013.chriskrycho.com/* https://v3.chriskrycho.com/:splat 301
+https://2012-2013.chriskrycho.com/* https://v3.chriskrycho.com/:splat 301
