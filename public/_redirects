@@ -384,7 +384,9 @@ http://www.chriskrycho.com/* https://www.chriskrycho.com/:splat 301!
 /podcasting/index.html https://v4.chriskrycho.com/podcasting/index.html 301
 /podcasting/ https://v4.chriskrycho.com/podcasting/index.html 301
 /podcasting https://v4.chriskrycho.com/podcasting/index.html 301
+/podcasts/ https://v4.chriskrycho.com/podcasts.html 301
 /podcasts.html https://v4.chriskrycho.com/podcasts.html 301
+/podcasts https://v4.chriskrycho.com/podcasts.html 301
 /podcasts.txt https://v4.chriskrycho.com/podcasts.txt 301
 /poetry/index.html https://v4.chriskrycho.com/poetry/index.html 301
 /poetry/ https://v4.chriskrycho.com/poetry/index.html 301
