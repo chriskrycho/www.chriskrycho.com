@@ -5,10 +5,12 @@ http://chriskrycho.netlify.com/* https://www.chriskrycho.com/:splat 301!
 # Require TLS.
 http://www.chriskrycho.com/* https://www.chriskrycho.com/:splat 301!
 
-# These are configured as `307` so that they can be updated to point to future
+# These are configured as `302` so that they can be updated to point to future
 # versions of the site.
 /feed.xml https://v5.chriskrycho.com/feed.xml 302
 /404.html https://v5.chriskrycho.com/404.html 302
+/index.html https://v4.chriskrycho.com/index.html 302
+/ https://v4.chriskrycho.com/index.html 302
 
 # v4 REDIRECTS -----------------------------------------------------------------
 
@@ -271,9 +273,6 @@ http://www.chriskrycho.com/* https://www.chriskrycho.com/:splat 301!
 /inbox-zero/index.html https://v4.chriskrycho.com/inbox-zero/index.html 301
 /inbox-zero/ https://v4.chriskrycho.com/inbox-zero/index.html 301
 /inbox-zero https://v4.chriskrycho.com/inbox-zero/index.html 301
-/index.html https://v4.chriskrycho.com/index.html 301
-/ https://v4.chriskrycho.com/index.html 301
- https://v4.chriskrycho.com/index.html 301
 /indie-web/index.html https://v4.chriskrycho.com/indie-web/index.html 301
 /indie-web/ https://v4.chriskrycho.com/indie-web/index.html 301
 /indie-web https://v4.chriskrycho.com/indie-web/index.html 301
