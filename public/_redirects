@@ -616,4 +616,5 @@ https://2011.chriskrycho.com/* https://v2.chriskrycho.com/:splat 301
 http://2012-2013.chriskrycho.com/* https://v3.chriskrycho.com/:splat 301
 https://2012-2013.chriskrycho.com/* https://v3.chriskrycho.com/:splat 301
 
+# v5 CATCHALL REDIRECTS --------------------------------------------------------
 /* https://v5.chriskrycho.com/:splat 302
