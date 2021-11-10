@@ -2,7 +2,7 @@
 
 This is the static hosting for the domain www.chriskrycho.com (and also the bare chriskrycho.com domain). You will *not* find the actual content of my website here, though: it lives in a versioned subdomain:
 
-- [ ] v1.chriskrycho.com (to be republished at that URL)
+- [x] v1.chriskrycho.com (to be republished at that URL)
 - [x] v2.chriskrycho.com
 - [ ] v3.chriskrycho.com (to be republished at that URL)
 - [x] v4.chriskrycho.com
